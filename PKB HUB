@@ -138,4 +138,8 @@ Tab:AddTextbox({
       game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
     end 
 })
-Tab:AddParagraph("comingsoon")
+Tab:AddButton({
+	Name = "Owl!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TopPlayzYT/WL-Hub/Main/BladeBall"))()
+  	end
