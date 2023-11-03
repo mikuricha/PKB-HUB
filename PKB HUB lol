@@ -90,6 +90,12 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/ForYourHead/BladeBallV2/main/BladeBallScriptV2"))()
   	end    
 })
+Tab:AddButton({
+	Name = "Untra spam click 120 per second",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/zen.cc/main/zenultramax.lua",true))()
+  	end    
+})
 Tab:AddParagraph("comingsoon")
 local Tab = Window:MakeTab({
     Name = "Blox fruits",
