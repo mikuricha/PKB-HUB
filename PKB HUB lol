@@ -84,6 +84,12 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/TopPlayzYT/WL-Hub/Main/BladeBall"))()
   	end    
 })
+Tab:AddButton({
+	Name = "Close combat",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ForYourHead/BladeBallV2/main/BladeBallScriptV2"))()
+  	end    
+})
 Tab:AddParagraph("comingsoon")
 local Tab = Window:MakeTab({
     Name = "Blox fruits",
