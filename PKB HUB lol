@@ -96,6 +96,12 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/zen.cc/main/zenultramax.lua",true))()
   	end    
 })
+Tab:AddButton({
+	Name = "Visualize key:IUseVisualFree",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/DevTravDYT/dsaaswadfeszad/main/Testt'))();
+  	end    
+})
 Tab:AddParagraph("comingsoon")
 local Tab = Window:MakeTab({
     Name = "Blox fruits",
