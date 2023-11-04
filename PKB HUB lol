@@ -96,12 +96,6 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/zen.cc/main/zenultramax.lua",true))()
   	end    
 })
-Tab:AddButton({
-	Name = "Auto close combat key= WuJKdOsPemUeRaea2",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TopPlayzYT/WL-Hub/Main/BladeBall"))()
-  	end    
-})
 Tab:AddParagraph("comingsoon")
 local Tab = Window:MakeTab({
     Name = "Blox fruits",
